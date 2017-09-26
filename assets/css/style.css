@@ -1,0 +1,110 @@
+body {
+	font-family: 'Poller One', cursive;
+	color: white;
+}
+
+h1, h2, h3 {
+	font-family: 'Poller One', cursive;
+}
+
+h2 {
+	color: yellow;
+}
+
+h4 {
+	padding: 10px	
+}
+
+.header img {
+	height: 150px;
+	width: 400px;
+	margin-top: 20px;
+}
+
+.jumbotron {
+	margin: 0 auto;
+	color: yellow;
+	margin: none;
+	padding: none;
+}
+
+.modal-body {
+	color: black;
+}
+
+.modal-header {
+	color: black;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+}
+
+ #push, #footer {
+    height: 60px;
+}
+
+/*Classes available*/
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.characterContainer {
+	display: inline-block;
+	width: 200px;
+	border: solid 3px yellow;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	border-radius: 4px;
+}
+
+.bg-red {
+	background-color: #ce2121;	
+}
+
+.bg-white {
+	background-color: black;
+}
+
+.bg-black {
+	background-color: grey;
+}
+
+.enemyContainer {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	border: solid 4px black;
+	margin-bottom: 10px;
+	background-color: black;
+	border-radius: 4px;
+}
+
+.characterContainer p, .enemyContainer p {
+	color: white;
+	text-align: center;
+	padding-top: 8px
+}
+
+img {
+	height: 100px;
+	width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attackBtn {
+	vertical-align: middle;
+	margin-top: 80px;
+}
+
+#attackText {
+	font-size: 25px;
+}
